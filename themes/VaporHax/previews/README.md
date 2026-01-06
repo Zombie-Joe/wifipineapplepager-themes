@@ -3,24 +3,24 @@
 
 ## Dashboard
 
-![Dashboard](previews/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Payloads
 
-![Payloads](previews/payloads.png)
+![Payloads](payloads.png)
 
 ## Option select
 
-![Optionselect](previews/option.png)
+![Optionselect](option.png)
 
 ## Dialogs
 
-![Dialogs](previews/dialog.png)
+![Dialogs](dialog.png)
 
 ## Menus
 
-![Menus](previews/menu.png)
+![Menus](menu.png)
 
 ## Power menu
 
-![Powermenu](previews/power.png)
+![Powermenu](power.png)
