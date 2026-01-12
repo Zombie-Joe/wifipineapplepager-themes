@@ -19,7 +19,7 @@
       { "text": "Open AP",   "x": 10, "y": 85,  "text_color_palette": "gray" },
       { "text": "Evil WPA",  "x": 10, "y": 120, "text_color_palette": "gray" },
       { "text": "SSID Pool", "x": 10, "y": 155, "text_color_palette": "gray" },
-      { "text": "Filters",   "x": 10, "y": 190, "text_color_palette": "yellow" }
+      { "text": "Filters",   "x": 10, "y": 190, "text_color_palette": "red" }
     ]
   },
   "pages": [
@@ -31,7 +31,7 @@
           "x":170,
           "y":50,
           "layers": [
-            { "text": "Client Filter:", "text_color_palette": "magenta" },
+            { "text": "Client Filter:", "text_color_palette": "gray" },
             { "variable_name": "$_FILTER_CLIENT_MODE", "x": 200, "toggle_template": {
               "enabled": [
                 { "image_path": "assets/swap.png","x": 72, "y": 2, "recolor_palette":  "gray" },
@@ -44,7 +44,7 @@
             } }
           ],
           "selected_layers": [
-            { "text": "Client Filter:", "text_color_palette": "yellow" },
+            { "text": "Client Filter:", "text_color_palette": "red" },
             { "variable_name": "$_FILTER_CLIENT_MODE", "x": 200, "toggle_template": {
               "enabled": [
                 { "image_path": "assets/swap.png","x": 72, "y": 2, "recolor_palette":  "gray" },
@@ -65,11 +65,11 @@
           "y":85,
           "layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Allowed Client List", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Allowed Client List", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Allowed Client List", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Allowed Client List", "x": 40, "text_color_palette": "red" }
           ],
           "target": "filter_list",
           "variable": "$_FILTER_CLIENT_ALLOW_LIST"
@@ -81,11 +81,11 @@
 
           "layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Denied Client List", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Denied Client List", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Denied Client List", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Denied Client List", "x": 40, "text_color_palette": "red" }
           ],
           "target": "filter_list",
           "variable": "$_FILTER_CLIENT_DENY_LIST"
@@ -96,11 +96,11 @@
           "y":155,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Allowed Client", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Add Allowed Client", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Allowed Client", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Add Allowed Client", "x": 40, "text_color_palette": "red" }
           ],
           "target": "edit_mac_dialog",
           "variable": "$_FILTER_CLIENT_ALLOW_ADD"
@@ -111,12 +111,12 @@
           "y":190,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Denied Client", "x": 40, "text_color_palette": "magenta" },
+            { "text": "Add Denied Client", "x": 40, "text_color_palette": "gray" },
             { "image_path": "assets/down.png", "x": -20, "y": 10, "recolor_palette": "gray"}
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Denied Client", "x": 40, "text_color_palette": "yellow" },
+            { "text": "Add Denied Client", "x": 40, "text_color_palette": "red" },
             { "image_path": "assets/down.png", "x": -20, "y": 10, "recolor_palette": "gray"}
           ],
           "target": "edit_mac_dialog",
@@ -132,7 +132,7 @@
           "x":170,
           "y":50,
           "layers": [
-            { "text": "Network Filter:", "text_color_palette": "magenta" },
+            { "text": "Network Filter:", "text_color_palette": "gray" },
             { "variable_name": "$_FILTER_NETWORK_MODE", "x": 200, "toggle_template": {
               "enabled": [
                 { "image_path": "assets/swap.png","x": 72, "y": 2, "recolor_palette":  "gray" },
@@ -146,7 +146,7 @@
             { "image_path": "assets/up.png", "x": -20, "y": -4, "recolor_palette": "gray"}
           ],
           "selected_layers": [
-            { "text": "Network Filter:", "text_color_palette": "yellow" },
+            { "text": "Network Filter:", "text_color_palette": "red" },
             { "variable_name": "$_FILTER_NETWORK_MODE", "x":200, "toggle_template": {
               "enabled": [
                 { "image_path": "assets/swap.png","x": 72, "y": 2, "recolor_palette":  "gray" },
@@ -168,11 +168,11 @@
           "y":85,
           "layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Allowed Network List", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Allowed Network List", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Allowed Network List", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Allowed Network List", "x": 40, "text_color_palette": "red" }
           ],
           "target": "filter_list",
           "variable": "$_FILTER_NETWORK_ALLOW_LIST"
@@ -183,11 +183,11 @@
           "y":120,
           "layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Denied Network List", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Denied Network List", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Denied Network List", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Denied Network List", "x": 40, "text_color_palette": "red" }
           ],
           "target": "filter_list",
           "variable": "$_FILTER_NETWORK_DENY_LIST"
@@ -198,11 +198,11 @@
           "y":155,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Allowed Network", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Add Allowed Network", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Allowed Network", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Add Allowed Network", "x": 40, "text_color_palette": "red" }
           ],
           "target": "edit_string_dialog",
           "variable": "$_FILTER_NETWORK_ALLOW_ADD"
@@ -213,11 +213,11 @@
           "y":190,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Denied Network", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Add Denied Network", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Denied Network", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Add Denied Network", "x": 40, "text_color_palette": "red" }
           ],
           "target": "edit_string_dialog",
           "variable": "$_FILTER_NETWORK_DENY_ADD"

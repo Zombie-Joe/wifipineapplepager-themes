@@ -39,11 +39,11 @@
       "x": 286,
       "y": 5,
       "layers": {
-        "15": [{ "image_path": "assets/statusbar/dashboard_brightness_2.png", "recolor_palette": "magenta" }],
-        "25": [{ "image_path": "assets/statusbar/dashboard_brightness_3.png", "recolor_palette": "magenta" }],
-        "50": [{ "image_path": "assets/statusbar/dashboard_brightness_5.png", "recolor_palette": "magenta" }],
-        "75": [{ "image_path": "assets/statusbar/dashboard_brightness_7.png", "recolor_palette": "magenta" }],
-        "100": [{ "image_path": "assets/statusbar/dashboard_brightness_8.png", "recolor_palette": "magenta" }]
+        "15": [{ "image_path": "assets/statusbar/dashboard_brightness_2.png", "recolor_palette": "gray" }],
+        "25": [{ "image_path": "assets/statusbar/dashboard_brightness_3.png", "recolor_palette": "gray" }],
+        "50": [{ "image_path": "assets/statusbar/dashboard_brightness_5.png", "recolor_palette": "gray" }],
+        "75": [{ "image_path": "assets/statusbar/dashboard_brightness_7.png", "recolor_palette": "gray" }],
+        "100": [{ "image_path": "assets/statusbar/dashboard_brightness_8.png", "recolor_palette": "gray" }]
       }
     },
     "Vibrate": {

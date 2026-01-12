@@ -32,7 +32,7 @@
           "y": 60,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Network Name", "x": 40, "text_color_palette": "grey" }
+            { "text": "Network Name", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
@@ -55,7 +55,7 @@
           "y": 90,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "BSSID Override", "x": 40, "text_color_palette": "grey" }
+            { "text": "BSSID Override", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
@@ -70,7 +70,7 @@
           "y": 120,
           "layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "Encryption Type", "x": 40, "text_color_palette": "grey" }
+            { "text": "Encryption Type", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
@@ -85,7 +85,7 @@
           "y": 150,
           "layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Passphrase", "x": 40, "text_color_palette": "grey" }
+            { "text": "Passphrase", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
@@ -100,7 +100,7 @@
           "y": 180,
           "layers": [
             { "image_path": "assets/wizard.png" },
-            { "text": "Save", "x": 34, "text_color_palette": "grey" }
+            { "text": "Save", "x": 34, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/wizard.png", "recolor_palette": "green" },
@@ -122,7 +122,7 @@
           "y": 180,
           "layers": [
             { "image_path": "assets/x.png", "x": 12, "y": 4 },
-            { "text": "Clear", "x": 38, "text_color_palette": "grey" }
+            { "text": "Clear", "x": 38, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/x.png", "x": 12, "y": 4, "recolor_palette": "red" },

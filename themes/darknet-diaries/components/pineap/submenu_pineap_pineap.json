@@ -15,7 +15,7 @@
     "layers": [
       { "image_path": "assets/pineap_bg.png", "x": 0, "y": 0 },
       { "image_path": "assets/divright.png", "x": 140, "y": 50 },
-      { "text": "PineAP",    "x": 10, "y": 50,  "text_color_palette": "yellow" },
+      { "text": "PineAP",    "x": 10, "y": 50,  "text_color_palette": "red" },
       { "text": "Open AP",   "x": 10, "y": 85,  "text_color_palette": "gray" },
       { "text": "Evil WPA",  "x": 10, "y": 120, "text_color_palette": "gray" },
       { "text": "SSID Pool", "x": 10, "y": 155, "text_color_palette": "gray" },
@@ -32,11 +32,11 @@
           "y":50,
           "layers": [
             { "variable_name":  "$_PINEAP_IMPERSONATE_NETWORKS", "use_template": "toggle" },
-            { "text": "Mimic Open Networks", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Mimic Open Networks", "x": 40, "text_color_palette": "grey" }
           ],
           "selected_layers": [
             { "variable_name":  "$_PINEAP_IMPERSONATE_NETWORKS", "use_template": "toggle" },
-            { "text": "Mimic Open Networks", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Mimic Open Networks", "x": 40, "text_color_palette": "red" }
           ],
           "target": "inline_toggle",
           "variable": "$_PINEAP_IMPERSONATE_NETWORKS"
@@ -47,11 +47,11 @@
           "y":85,
           "layers": [
             { "variable_name":  "$_PINEAP_COLLECT_NETWORKS", "use_template": "toggle" },
-            { "text": "Collect Probes", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Collect Probes", "x": 40, "text_color_palette": "grey" }
           ],
           "selected_layers": [
             { "variable_name":  "$_PINEAP_COLLECT_NETWORKS", "use_template": "toggle" },
-            { "text": "Collect Probes", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Collect Probes", "x": 40, "text_color_palette": "red" }
           ],
           "target": "inline_toggle",
           "variable": "$_PINEAP_COLLECT_NETWORKS"
@@ -62,11 +62,11 @@
           "y":120,
           "layers": [
             { "variable_name":  "$_PINEAP_ADVERTISE_NETWORKS", "use_template": "toggle" },
-            { "text": "Advertise Networks", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Advertise Networks", "x": 40, "text_color_palette": "grey" }
           ],
           "selected_layers": [
             { "variable_name":  "$_PINEAP_ADVERTISE_NETWORKS", "use_template": "toggle" },
-            { "text": "Advertise Networks", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Advertise Networks", "x": 40, "text_color_palette": "red" }
           ],
           "target": "inline_toggle",
           "variable": "$_PINEAP_ADVERTISE_NETWORKS"
@@ -77,11 +77,11 @@
           "y":155,
           "layers": [
             { "variable_name":  "$_PINEAP_RANDOMIZE_MAC_ADDRESS", "use_template": "toggle" },
-            { "text": "Randomize Address", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Randomize Address", "x": 40, "text_color_palette": "grey" }
           ],
           "selected_layers": [
             { "variable_name":  "$_PINEAP_RANDOMIZE_MAC_ADDRESS", "use_template": "toggle" },
-            { "text": "Randomize Address", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Randomize Address", "x": 40, "text_color_palette": "red" }
           ],
           "target": "inline_toggle",
           "variable": "$_PINEAP_RANDOMIZE_MAC_ADDRESS"
@@ -92,12 +92,12 @@
           "y":190,
           "layers": [
             { "variable_name":  "$_PINEAP_COLLECT_HANDSHAKES", "use_template": "toggle" },
-            { "text": "Collect Handshakes", "x": 40, "text_color_palette": "magenta" },
+            { "text": "Collect Handshakes", "x": 40, "text_color_palette": "grey" },
             { "image_path": "assets/down.png", "x": -20, "y": 10, "recolor_palette": "gray"}
           ],
           "selected_layers": [
             { "variable_name":  "$_PINEAP_COLLECT_HANDSHAKES", "use_template": "toggle" },
-            { "text": "Collect Handshakes", "x": 40, "text_color_palette": "yellow" },
+            { "text": "Collect Handshakes", "x": 40, "text_color_palette": "red" },
             { "image_path": "assets/down.png", "x": -20, "y": 10, "recolor_palette": "gray"}
           ],
           "target": "inline_toggle",
@@ -114,12 +114,12 @@
           "y":50,
           "layers": [
             { "variable_name":  "$_WIGLE_MODE_ENABLED", "use_template": "toggle" },
-            { "text": "Wigle Mode", "x": 40, "text_color_palette": "magenta" },
+            { "text": "Wigle Mode", "x": 40, "text_color_palette": "grey" },
             { "image_path": "assets/up.png", "x": -20, "y": -4, "recolor_palette": "gray"}
           ],
           "selected_layers": [
             { "variable_name":  "$_WIGLE_MODE_ENABLED", "use_template": "toggle" },
-            { "text": "Wigle Mode", "x": 40, "text_color_palette": "yellow" },
+            { "text": "Wigle Mode", "x": 40, "text_color_palette": "red" },
             { "image_path": "assets/up.png", "x": -20, "y": -4, "recolor_palette": "gray"}
           ],
           "target": "inline_toggle",

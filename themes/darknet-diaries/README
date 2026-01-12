@@ -1,1 +1,96 @@
-A Theme for the Hak5 wifi pineapple pager - inspired by Darknet Diaries - With permission from Jack Rhysider - WIP
+# Darknet Diaries Theme V2.0
+
+## Description
+
+A Theme for the Hak5 WiFi Pineapple Pager - inspired by Darknet Diaries - Art used with permission from Jack Rhysider
+Created by Nomaran
+
+## Tested Firmware
+
+Developed using the V1.0.4 Pager firmware and the V0.5 theme framework
+
+## Features
+
+A full recolor to match the Darknet Diaries assets
+A Reworked dashboard
+Customized icons and labels
+Wardriving/Wigle dashboard for the on the go Pager
+Custom animations
+
+## Wardriving Dashboard
+
+A simple dashboard for quick access to Wardriving resources.
+
+### Features
+
+Status fields for GPS
+Toggle for Wigle
+Toggle for PCAP
+Restart GPSd
+GPS Device
+Baud Rate
+
+## Screenshots
+
+### Boot Screen
+<img src="screenshots/boot.png" width="480">
+
+### Dashboard
+<img src="screenshots/dashboard.png" width="480">
+
+### Alerts
+<img src="screenshots/alerts.png" width="480">
+
+### Payloads
+<img src="screenshots/payloads.png" width="480">
+
+### Wardriving
+<img src="screenshot/wardriving.png" width="480">
+
+## Installion Instructions
+
+### Direct Copy
+
+#### Windows
+
+If you are running a current version of Windows you can simply use the scp command:
+
+`scp -r themes/darknet-diaries/ root@172.16.42.1:/root/themes/`
+
+Otherwise you can use WinSCP program, an FTP program of your choice, or even using SSHFS: https://www.youtube.com/watch?v=O5Qz-hiYjlc. Ensure the theme is uploaded to 
+
+`/root/themes`
+
+Select the theme from Settings > Display > Theme
+
+#### Linux/MacOS
+
+`scp -r themes/darknet-diaries/ root@172.16.42.1:/root/themes/`
+
+Select the theme from Settings > Display > Theme
+
+### Directly on the Pager
+
+Connect to the Virtual Pager or SSH in then run the following commands
+
+`cd /root/`
+
+`git clone https://github.com/hak5/wifipineapplepager-themes.git`
+
+`cp -r wifipineapplepager-themes/themes/darknet-diaries /root/themes/`
+
+Select the theme from Settings > Display > Theme
+
+## CREDITS:
+
+Jack Rhysider - Art and permission to use it - https://darknetdiaries.com/
+billyjbryant - Suggestion on how to fix the recon dashboard's readability
+ERRORW0LF - For the fantastic python theme tester, it was a life saver - https://github.com/ERR0RW0LF/wifipineapplepager-tools-unofficial
+Ser0ka - Learned from their code for my Wardriving/Wigle dashboard and a massive inspiration - https://github.com/Ser0ka88
+brAinphreAk - Learned from their code for my Wardriving/Wigle dashboard page - https://github.com/brainphreak
+
+## License
+
+This theme is subject to the Hak5 Software License Agreement: https://hak5.org/license
+
+WiFi Pineapple is a trademark of Hak5 LLC.

@@ -17,7 +17,7 @@
       { "image_path": "assets/divright.png", "x": 140, "y": 50 },
       { "text": "PineAP",    "x": 10, "y": 50,  "text_color_palette": "gray" },
       { "text": "Open AP",   "x": 10, "y": 85,  "text_color_palette": "gray" },
-      { "text": "Evil WPA",  "x": 10, "y": 120, "text_color_palette": "yellow" },
+      { "text": "Evil WPA",  "x": 10, "y": 120, "text_color_palette": "red" },
       { "text": "SSID Pool", "x": 10, "y": 155, "text_color_palette": "gray" },
       { "text": "Filters",   "x": 10, "y": 190, "text_color_palette": "gray" }
     ]
@@ -32,11 +32,11 @@
           "y":50,
           "layers": [
             { "variable_name":  "$_EVIL_WPA_ENABLED", "use_template": "toggle" },
-            { "text": "Evil WPA AP", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Evil WPA AP", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "variable_name":  "$_EVIL_WPA_ENABLED", "use_template": "toggle" },
-            { "text": "Evil WPA AP", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Evil WPA AP", "x": 40, "text_color_palette": "red" }
           ],
           "target": "inline_toggle",
           "variable": "$_EVIL_WPA_ENABLED"
@@ -47,11 +47,11 @@
           "y":85,
           "layers": [
             { "variable_name":  "$_EVIL_WPA_HIDDEN", "use_template": "toggle" },
-            { "text": "Hidden", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Hidden", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "variable_name":  "$_EVIL_WPA_HIDDEN", "use_template": "toggle" },
-            { "text": "Hidden", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Hidden", "x": 40, "text_color_palette": "red" }
           ],
           "target": "inline_toggle",
           "variable": "$_EVIL_WPA_HIDDEN"
@@ -62,11 +62,11 @@
           "y":120,
           "layers": [
             { "image_path": "assets/wizard.png" },
-            { "text": "Configuration", "x": 40, "text_color_palette": "magenta" }
+            { "text": "Configuration", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/wizard.png" },
-            { "text": "Configuration", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Configuration", "x": 40, "text_color_palette": "red" }
           ],
           "target": "evilwpa_wizard"
         }

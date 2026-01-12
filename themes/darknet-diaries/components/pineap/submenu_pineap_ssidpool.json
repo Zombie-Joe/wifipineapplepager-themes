@@ -18,7 +18,7 @@
       { "text": "PineAP",    "x": 10, "y": 50,  "text_color_palette": "gray" },
       { "text": "Open AP",   "x": 10, "y": 85,  "text_color_palette": "gray" },
       { "text": "Evil WPA",  "x": 10, "y": 120, "text_color_palette": "gray" },
-      { "text": "SSID Pool", "x": 10, "y": 155, "text_color_palette": "yellow" },
+      { "text": "SSID Pool", "x": 10, "y": 155, "text_color_palette": "red" },
       { "text": "Filters",   "x": 10, "y": 190, "text_color_palette": "gray" }
     ]
   },
@@ -36,7 +36,7 @@
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
-            { "text": "SSID Pool", "x": 40, "text_color_palette": "yellow" }
+            { "text": "SSID Pool", "x": 40, "text_color_palette": "red" }
           ],
           "target": "pineap_ssid_pool_list",
           "variable": "$_PINEAP_SSID_POOL_LIST"
@@ -50,7 +50,7 @@
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
-            { "text": "Add Network", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Add Network", "x": 40, "text_color_palette": "red" }
           ],
           "target": "edit_string_dialog",
           "variable": "$_PINEAP_SSID_POOL_ADD"
@@ -65,7 +65,7 @@
           ],
           "selected_layers": [
             { "image_path": "assets/warning.png" },
-            { "text": "Clear Networks", "x": 40, "text_color_palette": "yellow" }
+            { "text": "Clear Networks", "x": 40, "text_color_palette": "red" }
           ],
           "target": "function_clear_pineap_ssid_pool_list"
         }

@@ -1,6 +1,6 @@
 {
   "author": "Nomaran",
-  "theme_version": "1.0",
+  "theme_version": "2.0",
   "theme_framework_version": "0.5",
 
   "status_bars": {
@@ -45,7 +45,8 @@
     "recon_selected_ap_client_menu": "components/recon/recon_selected_ap_client_menu.json",
 
     "pineap_menu": "components/dashboards/dashboard_pineap.json",
-    "settings_menu": "components/dashboards/dashboard_settings.json"
+    "settings_menu": "components/dashboards/dashboard_settings.json",
+    "wardriving_menu": "components/dashboards/wardriving_menu.json"
   },
 
   "option_dialogs": {

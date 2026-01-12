@@ -24,7 +24,7 @@
           "x":45,
           "y":35,
           "layers": [
-            { "text": "Sleep Screen", "text_color_palette": "grey" }
+            { "text": "Sleep Screen", "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 5 },
@@ -37,7 +37,7 @@
           "x":45,
           "y":70,
           "layers": [
-            { "text": "Lock Screen", "text_color_palette": "grey" }
+            { "text": "Lock Screen", "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 5 },
@@ -50,7 +50,7 @@
           "x":45,
           "y":105,
           "layers": [
-            { "text": "Lock Buttons", "text_color_palette": "grey" }
+            { "text": "Lock Buttons", "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 5 },
@@ -63,7 +63,7 @@
           "x":45,
           "y":140,
           "layers": [
-            { "text": "Nerd Stats", "text_color_palette": "grey" }
+            { "text": "Nerd Stats", "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "variable_name":  "$_STATS_FOR_NERDS", "x": -38, "use_template": "green_toggle" },
@@ -77,7 +77,7 @@
           "x":45,
           "y":175,
           "layers": [
-            { "text": "Shutdown", "text_color_palette": "grey" }
+            { "text": "Shutdown", "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 5 },

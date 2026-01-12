@@ -26,17 +26,17 @@
           {
             "id": "Client 1",
             "layers": [
-              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "magenta"},
+              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "gray"},
               { "variable_name": "$_LIST_ITEM_CLIENT_IP", "x": 200, "y": 60,"string_template": {
                 "text_size": "medium",
-                "text_color_palette": "magenta",
+                "text_color_palette": "gray",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_MAC", "x": 200, "y": 81,"string_template": {
                 "text_size": "small",
-                "text_color_palette": "magenta",
+                "text_color_palette": "gray",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
@@ -57,31 +57,31 @@
               } }
             ],
             "selected_layers": [
-              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "yellow"},
+              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "red"},
               { "variable_name": "$_LIST_ITEM_CLIENT_IP", "x": 200, "y": 60,"string_template": {
                 "text_size": "medium",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_MAC", "x": 200, "y": 81,"string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_SIGNAL", "x": 364, "y": 81,  "string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               } },
               { "variable_name": "$_LIST_ITEM_CLIENT_INTERFACE", "x": 399, "y": 81,  "string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
@@ -94,17 +94,17 @@
             "id": "Client 2",
             "y": 50,
             "layers": [
-              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "magenta"},
+              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "gray"},
               { "variable_name": "$_LIST_ITEM_CLIENT_IP", "x": 200, "y": 60,"string_template": {
                 "text_size": "medium",
-                "text_color_palette": "magenta",
+                "text_color_palette": "gray",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_MAC", "x": 200, "y": 81,"string_template": {
                 "text_size": "small",
-                "text_color_palette": "magenta",
+                "text_color_palette": "gray",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
@@ -125,31 +125,31 @@
               } }
             ],
             "selected_layers": [
-              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "yellow"},
+              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "red"},
               { "variable_name": "$_LIST_ITEM_CLIENT_IP", "x": 200, "y": 60,"string_template": {
                 "text_size": "medium",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_MAC", "x": 200, "y": 81,"string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_SIGNAL", "x": 364, "y": 81,  "string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               } },
               { "variable_name": "$_LIST_ITEM_CLIENT_INTERFACE", "x": 399, "y": 81,  "string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
@@ -162,17 +162,17 @@
             "id": "Client 3",
             "y": 100,
             "layers": [
-              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "magenta"},
+              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "gray"},
               { "variable_name": "$_LIST_ITEM_CLIENT_IP", "x": 200, "y": 60,"string_template": {
                 "text_size": "medium",
-                "text_color_palette": "magenta",
+                "text_color_palette": "gray",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_MAC", "x": 200, "y": 81,"string_template": {
                 "text_size": "small",
-                "text_color_palette": "magenta",
+                "text_color_palette": "gray",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
@@ -193,31 +193,31 @@
               } }
             ],
             "selected_layers": [
-              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "yellow"},
+              { "image_path": "assets/client.png","x": 165, "y": 70, "recolor_palette": "red"},
               { "variable_name": "$_LIST_ITEM_CLIENT_IP", "x": 200, "y": 60,"string_template": {
                 "text_size": "medium",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_MAC", "x": 200, "y": 81,"string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               }  },
               { "variable_name": "$_LIST_ITEM_CLIENT_SIGNAL", "x": 364, "y": 81,  "string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1
               } },
               { "variable_name": "$_LIST_ITEM_CLIENT_INTERFACE", "x": 399, "y": 81,  "string_template": {
                 "text_size": "small",
-                "text_color_palette": "yellow",
+                "text_color_palette": "red",
                 "max_chars": 32,
                 "wrap_text": true,
                 "max_lines": 1

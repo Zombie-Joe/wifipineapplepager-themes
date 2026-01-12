@@ -32,7 +32,7 @@
           "y":50,
           "unselectable": true,
           "layers": [
-            { "text": "Current Version:", "text_color_palette": "grey" },
+            { "text": "Current Version:", "text_color_palette": "gray" },
             { "variable_name": "$_FIRMWARE_VERSION", "string_template":
               { "text_size": "medium",
                 "text_color_palette": "grey",
@@ -50,7 +50,7 @@
           "y":85,
           "layers": [
             { "image_path": "assets/wizard.png" },
-            { "text": "Check for Updates", "x": 40, "text_color_palette": "grey" }
+            { "text": "Check for Updates", "x": 40, "text_color_palette": "gray" }
           ],
           "selected_layers": [
             { "image_path": "assets/wizard.png" },
