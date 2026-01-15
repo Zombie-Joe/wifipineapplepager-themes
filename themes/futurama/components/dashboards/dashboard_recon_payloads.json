@@ -23,7 +23,7 @@
         "menu_items": [
           {
             "id": "Slot0",
-            "x": 140,
+            "x": 15,
             "y": 60,
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 64, "y": 0, "use_template": "recon_payload_title" },
@@ -47,7 +47,7 @@
           },
           {
             "id": "Slot1",
-            "x": 140,
+            "x": 15,
             "y": 87,
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 64, "y": 0, "use_template": "recon_payload_title" },
@@ -71,7 +71,7 @@
           },
           {
             "id": "Slot2",
-            "x": 140,
+            "x": 15,
             "y": 118,
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 64, "y": 0, "use_template": "recon_payload_title" },
@@ -95,7 +95,7 @@
           },
           {
             "id": "Slot3",
-            "x": 140,
+            "x": 15,
             "y": 146,
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 64, "y": 0, "use_template": "recon_payload_title" },
@@ -119,7 +119,7 @@
           },
           {
             "id": "Slot4",
-            "x": 140,
+            "x": 15,
             "y": 175,
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 64, "y": 0, "use_template": "recon_payload_title" },

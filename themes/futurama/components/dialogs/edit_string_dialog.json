@@ -30,12 +30,12 @@
       "id": "Edit",
       "layers": [
         { "image_path": "assets/payload_dialog_option_bg.png","x": 172, "y": 107, "recolor_palette": "pngeditbutton" },
-        { "image_path": "assets/keyboard.png","x": 234, "y": 150, "recolor_palette": "pngediticoneditselect" },
+        { "image_path": "assets/keyboard.png","x": 225, "y": 150, "recolor_palette": "pngediticoneditselect" },
         { "text": "Edit", "x": 205, "y": 115, "text_color_palette": "texteditedit", "text_size": "large" }
       ],
       "selected_layers": [
         { "image_path": "assets/payload_dialog_option_bg.png","x": 172, "y": 107, "recolor_palette": "pngeditbutton" },
-        { "image_path": "assets/keyboard.png","x": 234, "y": 150, "recolor_palette":  "pngediticoneditselect" },
+        { "image_path": "assets/keyboard.png","x": 225, "y": 150, "recolor_palette":  "pngediticoneditselect" },
         { "image_path": "assets/payload_dialog_selected_box.png","x": 172, "y": 107, "recolor_palette": "pngeditbuttonedithlt" },
         { "text": "Edit", "x": 205, "y": 115, "text_color_palette": "texteditedit", "text_size": "large" }
       ],
