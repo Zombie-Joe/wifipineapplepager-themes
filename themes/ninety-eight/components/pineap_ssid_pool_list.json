@@ -5,11 +5,10 @@
     "cache_canvases": false,
     "background": {
       "layers": [
-        { "image_path": "assets/optiondialog/option_dialog_bg_windowed.png", "x": 8, "y": 12 },
-        { "variable_name": "$_INPUT_NAME", "x": 35, "y": 25, "use_template": "string_title" },
-        { "text":  "Size:", "text_size":  "small", "x": 330, "y": 25 },
-        { "variable_name": "$_LIST_SIZE", "x": 340, "y": 40, "use_template": "list_count" },
-        { "variable_name": "$_LIST_PAGINATOR_LABEL_SHORT", "x": 395, "y": 33, "use_template": "list_pagination_label" }
+        { "image_path": "assets/optiondialog/option_dialog_bg_windowed_plain.png" },
+        { "variable_name": "$_INPUT_NAME", "x": 30, "y": 35, "use_template": "string_title" },
+        { "variable_name": "$_LIST_SIZE", "x": 410, "y": 53, "use_template": "list_count" },
+        { "variable_name": "$_LIST_PAGINATOR_LABEL_SHORT", "x": 400, "y": 40, "use_template": "list_pagination_label" }
       ]
     },
     "button_map": {
@@ -27,11 +26,12 @@
             "id": "Slot0",
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 63, "use_template": "ssid_pool_string" },
-              { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70 }
+              { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70 , "recolor_palette": "medium_gray" }
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 63, "use_template": "ssid_pool_string_selected" },
-              { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70 }
+              { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70, "recolor_palette": "medium_gray" },
+			  { "image_path": "assets/settings/bodyhighlight.png", "x": 70, "y": 61}
             ],
             "target": "function_remove_ssid_pool_entry",
             "variable": "$_LIST_ITEM"
@@ -39,12 +39,11 @@
           {
             "id": "Slot1",
             "layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 75, "y": 90, "use_template": "ssid_pool_string" },
-              { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70 }
+              { "variable_name": "$_LIST_ITEM", "x": 75, "y": 90, "use_template": "ssid_pool_string" }
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 90, "use_template": "ssid_pool_string_selected" },
-              { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70 }
+			{ "image_path": "assets/settings/bodyhighlight.png", "x": 70, "y": 88}
             ],
             "target": "function_remove_ssid_pool_entry",
             "variable": "$_LIST_ITEM"
@@ -55,7 +54,8 @@
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 117, "use_template": "ssid_pool_string" }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 75, "y": 117, "use_template": "ssid_pool_string_selected" }
+              { "variable_name": "$_LIST_ITEM", "x": 75, "y": 117, "use_template": "ssid_pool_string_selected" },
+			{ "image_path": "assets/settings/bodyhighlight.png", "x": 70, "y": 115}
             ],
             "target": "function_remove_ssid_pool_entry",
             "variable": "$_LIST_ITEM"
@@ -66,7 +66,8 @@
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 144, "use_template": "ssid_pool_string" }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 75, "y": 144, "use_template": "ssid_pool_string_selected" }
+              { "variable_name": "$_LIST_ITEM", "x": 75, "y": 144, "use_template": "ssid_pool_string_selected" },
+			{ "image_path": "assets/settings/bodyhighlight.png", "x": 70, "y": 141}
             ],
             "target": "function_remove_ssid_pool_entry",
             "variable": "$_LIST_ITEM"
@@ -75,11 +76,12 @@
             "id": "Slot4",
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 171, "use_template": "ssid_pool_string" },
-              { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 37, "y": 175 }
+              { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 37, "y": 175, "recolor_palette": "medium_gray" }
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 75, "y": 171, "use_template": "ssid_pool_string_selected" },
-              { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 37, "y": 175 }
+              { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 37, "y": 175, "recolor_palette": "medium_gray" },
+			{ "image_path": "assets/settings/bodyhighlight.png", "x": 70, "y": 169}
             ],
             "target": "function_remove_ssid_pool_entry",
             "variable": "$_LIST_ITEM"
