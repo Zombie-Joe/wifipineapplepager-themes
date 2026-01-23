@@ -1,11 +1,12 @@
 # Ninety Eight
 - Author: Cribbit
-- Version: 1.0.1
+- Version: 1.0.2
 
 ## Change Log
 | Version | Changes         |
 | ------- | --------------- |
-| 1.0     | Initial release |
+| 1.0.1   | Initial release |
+| 1.0.2   | Finish recon    |
 
 ## Installation
 
@@ -18,5 +19,3 @@
 Demo of the main dashboard\
 ![Demo](demo.gif)
 
-## To do
-Finish off recon
